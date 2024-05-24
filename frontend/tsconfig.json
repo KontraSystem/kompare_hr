@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "@Components": ["./src/components/*"],
+      "@Basic": ["./src/components/basic/*"],
+      "@Form": ["./src/components/form/*"],
+      "@Context": ["./src/context/*"]
+    }
+  },
+  "include": ["src", "node_modules"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
