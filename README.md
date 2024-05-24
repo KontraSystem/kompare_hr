@@ -115,7 +115,3 @@ Please review the [License](https://github.com/apicgg/vite-mern-template/blob/ma
 ## Contributors ✨
 
 Contributions of any kind welcome! Kindly have a look into [Contributing Guidelines](CONTRIBUTING.md)
-
-## MongoDB
-
-ULSgXdDuGbCExTvZ
